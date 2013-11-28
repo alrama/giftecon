@@ -6,8 +6,6 @@ import java.util.*;
 // End of user code
 
 public class User extends JSONSerializer {
-  private Request[] requests;
-  
   private int yearBirth;
   
   private String surname;
