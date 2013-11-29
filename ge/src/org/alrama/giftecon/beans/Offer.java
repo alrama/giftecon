@@ -6,31 +6,31 @@ import java.util.*;
 // End of user code
 
 public class Offer extends JSONSerializer {
-  private Byte[] user_id;
-  
-  private Byte[] request_ref;
-  
-  private Subscription[] ;
-  
   private Boolean renewable;
-  
-  private Long good_id;
-  
-  private Int quantity;
   
   private Good good;
   
-  private Long date_of_Offer;
+  private Byte[] user_id;
+  
+  private Byte[] dht_id;
+  
+  private Byte[] request_ref;
+  
+  private StatusSupply status;
+  
+  private Subscription[] ;
   
   private Long date_of_Accept;
   
   private Boolean[] dest_user_id;
   
-  private StatusSupply status;
+  private Int quantity;
   
-  private Byte[] dht_id;
+  private Long good_id;
   
   private SupplyRating rating;
+  
+  private Long date_of_Offer;
   
   
   public Offer() {

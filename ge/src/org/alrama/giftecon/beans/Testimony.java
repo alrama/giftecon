@@ -6,15 +6,15 @@ import java.util.*;
 // End of user code
 
 public class Testimony extends JSONSerializer {
-  private UserRating rating;
-  
   private String description;
+  
+  private UserRating rating;
   
   private Byte[] dht_id;
   
-  private Offer offer_reference;
-  
   private Byte[] author_user_id;
+  
+  private Offer offer_reference;
   
   private Byte[] user_id;
   

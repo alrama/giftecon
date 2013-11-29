@@ -6,17 +6,17 @@ import java.util.*;
 // End of user code
 
 public class Good {
-  private Int unitaryValue;
+  private Units sizeType;
   
   private Boolean sizeable;
+  
+  private Int unitaryValue;
+  
+  private Long id;
   
   private GoodCategory[] category;
   
   private String name;
-  
-  private Units sizeType;
-  
-  private Long id;
   
   
   public Good() {

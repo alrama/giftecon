@@ -6,33 +6,33 @@ import java.util.*;
 // End of user code
 
 public class User extends JSONSerializer {
-  private String login;
-  
   private Request[] ;
-  
-  private Good good;
-  
-  private String[] addresses;
-  
-  private Testimony[] testimonies;
-  
-  private JSONSerializer jsonserializer;
-  
-  private String name;
-  
-  private Byte[] dht_id;
-  
-  private Offer[] offers;
-  
-  private Location location;
-  
-  private String surname;
-  
-  private String loginProvider;
   
   private Int yearBirth;
   
+  private Good good;
+  
+  private Location location;
+  
+  private String name;
+  
+  private JSONSerializer jsonserializer;
+  
+  private String login;
+  
+  private Byte[] dht_id;
+  
+  private String[] addresses;
+  
+  private String loginProvider;
+  
+  private String surname;
+  
   private Photo[] photos;
+  
+  private Offer[] offers;
+  
+  private Testimony[] testimonies;
   
   
   public User() {

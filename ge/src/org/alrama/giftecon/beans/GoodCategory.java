@@ -8,9 +8,9 @@ import java.util.*;
 public class GoodCategory {
   private String name;
   
-  private Long id;
-  
   private GoodCategory[] subOf;
+  
+  private Long id;
   
   
   public GoodCategory() {
