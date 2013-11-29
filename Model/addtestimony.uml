@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_IvzuUFA_EeOBn4FaCHkQyw" name="model">
+  <ownedComment xmi:id="_KYmfAFBpEeOhJ6IsvLh5Jw">
+    <body>Add testimony&#xD;
+Clockwise actions sequence</body>
+  </ownedComment>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_q3r18FBoEeOhJ6IsvLh5Jw" name="Actor">
+    <generalization xmi:id="_y7Hg4FBoEeOhJ6IsvLh5Jw" general="_sL8TIFBoEeOhJ6IsvLh5Jw"/>
+    <generalization xmi:id="__XlBkFBoEeOhJ6IsvLh5Jw" general="_1kEgIFBoEeOhJ6IsvLh5Jw"/>
+    <generalization xmi:id="_GtuIsFBpEeOhJ6IsvLh5Jw" general="_CuZMYFBpEeOhJ6IsvLh5Jw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_sL8TIFBoEeOhJ6IsvLh5Jw" name="find user (Name Surname)">
+    <generalization xmi:id="_0HQj4FBoEeOhJ6IsvLh5Jw" general="_q3r18FBoEeOhJ6IsvLh5Jw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_1kEgIFBoEeOhJ6IsvLh5Jw" name="Verify user identity (photo history, addresses history, age)">
+    <generalization xmi:id="_AVgpcFBpEeOhJ6IsvLh5Jw" general="_q3r18FBoEeOhJ6IsvLh5Jw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_CuZMYFBpEeOhJ6IsvLh5Jw" name="add testimony (positive,negative)">
+    <generalization xmi:id="_IJfjIFBpEeOhJ6IsvLh5Jw" general="_q3r18FBoEeOhJ6IsvLh5Jw"/>
+  </packagedElement>
+</uml:Model>

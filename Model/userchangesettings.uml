@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_DbR5oFA_EeOBn4FaCHkQyw" name="model">
+  <ownedComment xmi:id="_ahAjYFEhEeOO0pLX0D2NhQ">
+    <body>Change user profile.&#xD;
+Old Photos and Addresses are kept and showed to other user for user identity continuity. User cannot change his identity, only can keep it updated (eg. for aging)</body>
+  </ownedComment>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_D-lfUFEhEeOO0pLX0D2NhQ" name="User">
+    <generalization xmi:id="_VB0W0FEhEeOO0pLX0D2NhQ" general="_Foy-YFEhEeOO0pLX0D2NhQ"/>
+    <generalization xmi:id="_Y41EoFEhEeOO0pLX0D2NhQ" general="_VlnAYFEhEeOO0pLX0D2NhQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Foy-YFEhEeOO0pLX0D2NhQ" name="Add new Photo "/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VlnAYFEhEeOO0pLX0D2NhQ" name="Add new address"/>
+</uml:Model>

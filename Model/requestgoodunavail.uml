@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_mrjNgFA4EeOBn4FaCHkQyw" name="model">
+  <ownedComment xmi:id="_-kppcFBgEeOQubkcY21wlA">
+    <body>Unavalivable good request&#xD;
+&quot;In need of good&quot;: Clockwise actions sequence&#xD;
+&quot;potential provide&quot;: counterclockwise actions sequence</body>
+  </ownedComment>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HAAPgFA9EeOBn4FaCHkQyw" name="in need of good">
+    <generalization xmi:id="_M0VloFA9EeOBn4FaCHkQyw" general="_JWIZYFA9EeOBn4FaCHkQyw"/>
+    <generalization xmi:id="_VLp14FA9EeOBn4FaCHkQyw" general="_QlXnQFA9EeOBn4FaCHkQyw"/>
+    <generalization xmi:id="_jPdu4FA9EeOBn4FaCHkQyw" general="_eeR30FA9EeOBn4FaCHkQyw"/>
+    <generalization xmi:id="_jTYYAFBdEeOQubkcY21wlA" general="_e7pT0FA-EeOBn4FaCHkQyw"/>
+    <generalization xmi:id="_N5OuEFEiEeOO0pLX0D2NhQ" general="_KTc6MFEiEeOO0pLX0D2NhQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JWIZYFA9EeOBn4FaCHkQyw" name="Select/Add good type">
+    <generalization xmi:id="_OkZOAFA9EeOBn4FaCHkQyw" general="_HAAPgFA9EeOBn4FaCHkQyw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_QlXnQFA9EeOBn4FaCHkQyw" name="ask for good offers"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_eeR30FA9EeOBn4FaCHkQyw" name="Broadcast query for good">
+    <generalization xmi:id="_sOeRQFA9EeOBn4FaCHkQyw" general="_pxWukFA9EeOBn4FaCHkQyw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_jzwuwFA9EeOBn4FaCHkQyw" name="potential provider">
+    <generalization xmi:id="_9r-p8FA9EeOBn4FaCHkQyw" general="_vnyWcFA9EeOBn4FaCHkQyw"/>
+    <generalization xmi:id="_XPXkoFA-EeOBn4FaCHkQyw" general="_S_wJkFA-EeOBn4FaCHkQyw"/>
+    <generalization xmi:id="_UfzZcFEiEeOO0pLX0D2NhQ" general="_RjicoFEiEeOO0pLX0D2NhQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_pxWukFA9EeOBn4FaCHkQyw" name="notification service">
+    <generalization xmi:id="_tlmcQFA9EeOBn4FaCHkQyw" general="_jzwuwFA9EeOBn4FaCHkQyw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vnyWcFA9EeOBn4FaCHkQyw" name="new good offer">
+    <generalization xmi:id="_AkUJAFA-EeOBn4FaCHkQyw" general="_HAAPgFA9EeOBn4FaCHkQyw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_S_wJkFA-EeOBn4FaCHkQyw" name="check own reputation">
+    <generalization xmi:id="_WvE7AFA-EeOBn4FaCHkQyw" general="_jzwuwFA9EeOBn4FaCHkQyw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_e7pT0FA-EeOBn4FaCHkQyw" name="express supply usefulness valutation">
+    <generalization xmi:id="_knwJ8FBdEeOQubkcY21wlA" general="_Zpd3cFBdEeOQubkcY21wlA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Zpd3cFBdEeOQubkcY21wlA" name="Update overall provider reputation"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_KTc6MFEiEeOO0pLX0D2NhQ" name="Subscription">
+    <generalization xmi:id="_RDH3MFEiEeOO0pLX0D2NhQ" general="_jzwuwFA9EeOBn4FaCHkQyw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_RjicoFEiEeOO0pLX0D2NhQ" name="accept">
+    <generalization xmi:id="_V7SgAFEiEeOO0pLX0D2NhQ" general="_HAAPgFA9EeOBn4FaCHkQyw"/>
+  </packagedElement>
+</uml:Model>

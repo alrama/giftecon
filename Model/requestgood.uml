@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_iLwxME4DEeOfSfro3Xalzw" name="model">
+  <ownedComment xmi:id="_VB02kFBgEeOQubkcY21wlA" annotatedElement="_mGDcgE4DEeOfSfro3Xalzw">
+    <body>Good supply&#xD;
+Clockwise actions sequence</body>
+  </ownedComment>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_mGDcgE4DEeOfSfro3Xalzw" name="in need of good">
+    <generalization xmi:id="_8XtgsE4DEeOfSfro3Xalzw" general="_qw2-wE4DEeOfSfro3Xalzw"/>
+    <generalization xmi:id="_KC0l0E4EEeOfSfro3Xalzw" general="_DR1aME4EEeOfSfro3Xalzw"/>
+    <generalization xmi:id="_3uSCAE4EEeOfSfro3Xalzw" general="_u9800E4EEeOfSfro3Xalzw"/>
+    <generalization xmi:id="_SzebwE4HEeOfSfro3Xalzw" general="_K3bLME4HEeOfSfro3Xalzw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_qw2-wE4DEeOfSfro3Xalzw" name="Select type good"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_DR1aME4EEeOfSfro3Xalzw" name="Inquire good offers">
+    <generalization xmi:id="_izgvgFA5EeOBn4FaCHkQyw" general="_mGDcgE4DEeOfSfro3Xalzw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_u9800E4EEeOfSfro3Xalzw" name="Subscribe for get it">
+    <generalization xmi:id="_QQkPkE4GEeOfSfro3Xalzw" general="_LJN7QE4GEeOfSfro3Xalzw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_LJN7QE4GEeOfSfro3Xalzw" name="good provider">
+    <generalization xmi:id="_Z-59IE4GEeOfSfro3Xalzw" general="_TkoBUE4GEeOfSfro3Xalzw"/>
+    <generalization xmi:id="_q2hagE4GEeOfSfro3Xalzw" general="_lzWbkE4GEeOfSfro3Xalzw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_TkoBUE4GEeOfSfro3Xalzw" name="Check consumer reputation &amp; his weighted ratio given_goods/received_goods">
+    <generalization xmi:id="_cTNiEE4GEeOfSfro3Xalzw" general="_LJN7QE4GEeOfSfro3Xalzw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_lzWbkE4GEeOfSfro3Xalzw" name="accept subscription">
+    <generalization xmi:id="_xkfHUE4GEeOfSfro3Xalzw" general="_mGDcgE4DEeOfSfro3Xalzw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_K3bLME4HEeOfSfro3Xalzw" name="express supply usefulness valutation">
+    <generalization xmi:id="_7GXPYFA5EeOBn4FaCHkQyw" general="_t3D8gFA5EeOBn4FaCHkQyw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_t3D8gFA5EeOBn4FaCHkQyw" name="Update overall provider reputation"/>
+</uml:Model>

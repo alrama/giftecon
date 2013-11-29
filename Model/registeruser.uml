@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="__K0KAFA-EeOBn4FaCHkQyw" name="model">
+  <ownedComment xmi:id="_yrPvQFEgEeOO0pLX0D2NhQ">
+    <body>Register user.&#xD;
+Profile must show life-&#xD;
+real user identity </body>
+  </ownedComment>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_TXJaMFEgEeOO0pLX0D2NhQ" name="New user">
+    <generalization xmi:id="_fhyLEFEgEeOO0pLX0D2NhQ" general="_V7PHkFEgEeOO0pLX0D2NhQ"/>
+    <generalization xmi:id="_rEjDoFEgEeOO0pLX0D2NhQ" general="_gw6QoFEgEeOO0pLX0D2NhQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_V7PHkFEgEeOO0pLX0D2NhQ" name="add Name, Surname, yearBirth, Address, Photo"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_gw6QoFEgEeOO0pLX0D2NhQ" name="associate login(OAuth providers)"/>
+</uml:Model>
